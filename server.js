@@ -41,7 +41,7 @@ const urlencodedParser = bodyParser.urlencoded({ extended: false });
 // defines a route that receives the request to /
 app.get('/', (req, res) => {
     // make a request to the backend microservice using the request package
-    // the URL for the backend service should be set in configuration 
+    // the URL fckend service should be set in configuration 
     // using an environment variable. Here, the variable is passed 
     // to npm start inside package.json:
     //  "start": "SERVER=http://localhost:8082 node server.js",
